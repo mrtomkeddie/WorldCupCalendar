@@ -262,9 +262,6 @@ def build():
         ch = dynamic.get(str(no)) or CHANNELS.get(no) or "BBC / ITV (TBC)"
         venue = m.get("Location") or "TBC"
 
-        # Title shows only the teams; everything else lives in the notes.
-        summary = f"{home} v {away}"
-
         desc = (f"🏆 {stage}  |  Match {no}\n"
                 f"⏰ Kick-off: {ko_uk} (UK)\n"
                 f"📺 UK TV: {ch}\n"
@@ -272,14 +269,16 @@ def build():
         if not (is_real(m["HomeTeam"]) and is_real(m["AwayTeam"])):
             desc += "\nℹ️ Teams update automatically once results are known."
 
-        # Once played, lead the notes with the full-time result (auto-fills from
-        # the feed). For a level knockout score, name who advanced (penalties).
+        # Title shows the teams, or — once played — the full-time score in place
+        # of the "v" (auto-fills from the feed). For a level knockout score, name
+        # who advanced (penalties) in the notes.
         hs, as_ = m.get("HomeTeamScore"), m.get("AwayTeamScore")
         if hs is not None and as_ is not None:
-            result = f"✅ Full-time: {home} {hs}–{as_} {away}"
+            summary = f"{home} {hs}–{as_} {away}"
             if m["RoundNumber"] >= 4 and hs == as_ and m.get("Winner"):
-                result += f"  (Winner: {with_flag(m['Winner'])})"
-            desc = result + "\n" + desc
+                desc = f"✅ Winner: {with_flag(m['Winner'])} (after penalties)\n" + desc
+        else:
+            summary = f"{home} v {away}"
 
         cal.extend(event(f"wc2026-m{no:03d}@claimease", start, summary,
                          venue, desc))
