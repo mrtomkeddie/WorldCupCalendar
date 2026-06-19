@@ -319,9 +319,9 @@
   "HomeTeam": "Canada",
   "AwayTeam": "Qatar",
   "Group": "Group B",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 6,
+  "AwayTeamScore": 0,
+  "Winner": "Canada"
  },
  {
   "MatchNumber": 28,
@@ -331,9 +331,9 @@
   "HomeTeam": "Mexico",
   "AwayTeam": "Korea Republic",
   "Group": "Group A",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 1,
+  "AwayTeamScore": 0,
+  "Winner": "Mexico"
  },
  {
   "MatchNumber": 29,
