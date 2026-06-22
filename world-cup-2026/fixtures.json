@@ -511,9 +511,9 @@
   "HomeTeam": "Argentina",
   "AwayTeam": "Austria",
   "Group": "Group J",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 2,
+  "AwayTeamScore": 0,
+  "Winner": "Argentina"
  },
  {
   "MatchNumber": 44,
