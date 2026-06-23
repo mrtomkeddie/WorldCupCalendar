@@ -487,9 +487,9 @@
   "HomeTeam": "Norway",
   "AwayTeam": "Senegal",
   "Group": "Group I",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 3,
+  "AwayTeamScore": 2,
+  "Winner": "Norway"
  },
  {
   "MatchNumber": 42,
@@ -499,9 +499,9 @@
   "HomeTeam": "France",
   "AwayTeam": "Iraq",
   "Group": "Group I",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 3,
+  "AwayTeamScore": 0,
+  "Winner": "France"
  },
  {
   "MatchNumber": 43,
