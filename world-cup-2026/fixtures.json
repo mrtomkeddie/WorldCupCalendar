@@ -823,9 +823,9 @@
   "HomeTeam": "Algeria",
   "AwayTeam": "Austria",
   "Group": "Group J",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 3,
+  "AwayTeamScore": 3,
+  "Winner": "Draw"
  },
  {
   "MatchNumber": 70,
@@ -835,9 +835,9 @@
   "HomeTeam": "Jordan",
   "AwayTeam": "Argentina",
   "Group": "Group J",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 1,
+  "AwayTeamScore": 3,
+  "Winner": "Argentina"
  },
  {
   "MatchNumber": 71,
@@ -1001,7 +1001,7 @@
   "DateUtc": "2026-07-02 19:00:00Z",
   "Location": "Los Angeles Stadium",
   "HomeTeam": "Spain",
-  "AwayTeam": "2J",
+  "AwayTeam": "Austria",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
@@ -1013,7 +1013,7 @@
   "DateUtc": "2026-07-03 03:00:00Z",
   "Location": "BC Place Vancouver",
   "HomeTeam": "Switzerland",
-  "AwayTeam": "3EFGIJ",
+  "AwayTeam": "Algeria",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
