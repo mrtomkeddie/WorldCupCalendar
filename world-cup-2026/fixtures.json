@@ -799,9 +799,9 @@
   "HomeTeam": "Panama",
   "AwayTeam": "England",
   "Group": "Group L",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 0,
+  "AwayTeamScore": 2,
+  "Winner": "England"
  },
  {
   "MatchNumber": 68,
@@ -811,9 +811,9 @@
   "HomeTeam": "Croatia",
   "AwayTeam": "Ghana",
   "Group": "Group L",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 2,
+  "AwayTeamScore": 1,
+  "Winner": "Croatia"
  },
  {
   "MatchNumber": 69,
@@ -847,9 +847,9 @@
   "HomeTeam": "Colombia",
   "AwayTeam": "Portugal",
   "Group": "Group K",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 0,
+  "AwayTeamScore": 0,
+  "Winner": "Draw"
  },
  {
   "MatchNumber": 72,
@@ -859,9 +859,9 @@
   "HomeTeam": "Congo DR",
   "AwayTeam": "Uzbekistan",
   "Group": "Group K",
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 3,
+  "AwayTeamScore": 1,
+  "Winner": "Congo DR"
  },
  {
   "MatchNumber": 73,
@@ -941,7 +941,7 @@
   "DateUtc": "2026-07-01 01:00:00Z",
   "Location": "Mexico City Stadium",
   "HomeTeam": "Mexico",
-  "AwayTeam": "3CEFHI",
+  "AwayTeam": "Ecuador",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
@@ -952,8 +952,8 @@
   "RoundNumber": 4,
   "DateUtc": "2026-07-01 16:00:00Z",
   "Location": "Atlanta Stadium",
-  "HomeTeam": "1L",
-  "AwayTeam": "3EHIJK",
+  "HomeTeam": "England",
+  "AwayTeam": "Congo DR",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
@@ -977,7 +977,7 @@
   "DateUtc": "2026-07-01 20:00:00Z",
   "Location": "Seattle Stadium",
   "HomeTeam": "Belgium",
-  "AwayTeam": "3AEHIJ",
+  "AwayTeam": "Senegal",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
@@ -988,8 +988,8 @@
   "RoundNumber": 4,
   "DateUtc": "2026-07-02 23:00:00Z",
   "Location": "Toronto Stadium",
-  "HomeTeam": "2K",
-  "AwayTeam": "2L",
+  "HomeTeam": "Portugal",
+  "AwayTeam": "Croatia",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
@@ -1036,8 +1036,8 @@
   "RoundNumber": 4,
   "DateUtc": "2026-07-04 01:30:00Z",
   "Location": "Kansas City Stadium",
-  "HomeTeam": "1K",
-  "AwayTeam": "3DEIJL",
+  "HomeTeam": "Colombia",
+  "AwayTeam": "Ghana",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
