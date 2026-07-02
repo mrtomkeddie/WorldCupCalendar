@@ -967,9 +967,9 @@
   "HomeTeam": "USA",
   "AwayTeam": "Bosnia and Herzegovina",
   "Group": null,
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 2,
+  "AwayTeamScore": 0,
+  "Winner": "USA"
  },
  {
   "MatchNumber": 82,
@@ -979,9 +979,9 @@
   "HomeTeam": "Belgium",
   "AwayTeam": "Senegal",
   "Group": null,
-  "HomeTeamScore": null,
-  "AwayTeamScore": null,
-  "Winner": ""
+  "HomeTeamScore": 3,
+  "AwayTeamScore": 2,
+  "Winner": "Belgium"
  },
  {
   "MatchNumber": 83,
@@ -1120,8 +1120,8 @@
   "RoundNumber": 5,
   "DateUtc": "2026-07-07 00:00:00Z",
   "Location": "Seattle Stadium",
-  "HomeTeam": "To be announced",
-  "AwayTeam": "To be announced",
+  "HomeTeam": "USA",
+  "AwayTeam": "Belgium",
   "Group": null,
   "HomeTeamScore": null,
   "AwayTeamScore": null,
